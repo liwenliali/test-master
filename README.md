@@ -14,7 +14,7 @@
     	│
     	├─Common			#存放公共、通用的方法
     	│ 
-    	├─Page_Object		#封装页面对象
+    	├─Page_Object				#封装页面对象
     	│ 
     	├─report			#存放测试报告、日志和截图
     	│ 
@@ -22,7 +22,7 @@
     	│
     	├─Test_Data			#存放测试数据
     	│
-    	├─Test_Suite		#测试套件
+    	├─Test_Suite			#测试套件
     	│
     	├─Run.py			#测试执行总入口
 
