@@ -10,21 +10,21 @@
 
     	├─.idea
     	│  
-    	├─Business		#封装业务逻辑流程
+    	├─Business			#封装业务逻辑流程
     	│
-    	├─Common		#存放公共、通用的方法
+    	├─Common			#存放公共、通用的方法
     	│ 
-    	├─Page_Object	#封装页面对象
+    	├─Page_Object		#封装页面对象
     	│ 
-    	├─report		#存放测试报告、日志和截图
+    	├─report			#存放测试报告、日志和截图
     	│ 
-    	├─Test_Case		#测试用例
+    	├─Test_Case			#测试用例
     	│
-    	├─Test_Data		#存放测试数据
+    	├─Test_Data			#存放测试数据
     	│
-    	├─Test_Suite	#测试套件
+    	├─Test_Suite		#测试套件
     	│
-    	├─Run.py		#测试执行总入口
+    	├─Run.py			#测试执行总入口
 
 
 上传的源代码是用本机搭建了个大商创电商项目写了个注册的demo，能看清楚本框架的能力，大家可以自行阅读理解。
@@ -34,6 +34,10 @@
 下图中16行的错误是由于测试数据最后一行多了一行空行，请忽略
 
 ![](https://i.imgur.com/lcOhta8.png)
+
+
+
+测试交流加qq2476668531，也请路过的大神多多指教！
 
 
 
