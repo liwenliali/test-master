@@ -1,0 +1,1020 @@
+[   INFO] [2018-05-24 15:53:47,041] [8060] [HTMLReport.py(101)] - 预计并发线程数：3
+[   INFO] [2018-05-24 15:53:47,042] [11180] [Result.py(48)] - 开始测试： test_registration_01___admin1____admin1____admin1____18627888001____3__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:53:50,043] [2144] [Result.py(48)] - 开始测试： test_registration_02___admin2____admin1____admin1____18627888002____3__ (Test_Case.registration_case.registrationcase)
+[  DEBUG] [2018-05-24 15:53:50,220] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[  DEBUG] [2018-05-24 15:53:52,446] [11180] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:53:52,446] [11180] [selenium_tools.py(32)] - 打开浏览器：chrome
+[  DEBUG] [2018-05-24 15:53:52,446] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:53:52,447] [11180] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:53:52,447] [11180] [selenium_tools.py(34)] - 设置隐式等待 10 S
+[  DEBUG] [2018-05-24 15:53:52,447] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/window/current/maximize {"windowHandle": "current", "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[   INFO] [2018-05-24 15:53:53,043] [14884] [Result.py(48)] - 开始测试： test_registration_03___admin3____admin1____admin1____18627888003____3__ (Test_Case.registration_case.registrationcase)
+[  DEBUG] [2018-05-24 15:53:53,126] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[  DEBUG] [2018-05-24 15:53:53,647] [11180] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:53:53,648] [11180] [selenium_tools.py(36)] - 浏览器最大化
+[  DEBUG] [2018-05-24 15:53:53,648] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:53:53,659] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:53:53,659] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/url {"url": "http://www.liwenli.com/dsc/", "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:53:54,848] [2144] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:53:54,848] [2144] [selenium_tools.py(32)] - 打开浏览器：chrome
+[  DEBUG] [2018-05-24 15:53:54,849] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:53:54,850] [2144] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:53:54,850] [2144] [selenium_tools.py(34)] - 设置隐式等待 10 S
+[  DEBUG] [2018-05-24 15:53:54,850] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/window/current/maximize {"windowHandle": "current", "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:53:56,046] [2144] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:53:56,047] [2144] [selenium_tools.py(36)] - 浏览器最大化
+[  DEBUG] [2018-05-24 15:53:56,047] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:53:56,048] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:53:56,049] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/url {"url": "http://www.liwenli.com/dsc/", "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:53:56,138] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[  DEBUG] [2018-05-24 15:53:57,885] [14884] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:53:57,886] [14884] [selenium_tools.py(32)] - 打开浏览器：chrome
+[  DEBUG] [2018-05-24 15:53:57,886] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:53:57,887] [14884] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:53:57,887] [14884] [selenium_tools.py(34)] - 设置隐式等待 10 S
+[  DEBUG] [2018-05-24 15:53:57,887] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/window/current/maximize {"windowHandle": "current", "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:53:59,078] [14884] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:53:59,079] [14884] [selenium_tools.py(36)] - 浏览器最大化
+[  DEBUG] [2018-05-24 15:53:59,079] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:53:59,080] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:53:59,080] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/url {"url": "http://www.liwenli.com/dsc/", "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:54:04,358] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:04,359] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/element {"using": "xpath", "value": "//a[@class='link-regist']", "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:54:04,382] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:04,382] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/element/0.9651363604390024-1/click {"id": "0.9651363604390024-1", "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:54:04,915] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:04,916] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/element {"using": "id", "value": "username", "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:54:04,933] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:04,934] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/element/0.6776933910504748-1/clear {"id": "0.6776933910504748-1", "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:54:04,960] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:04,961] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/element/0.6776933910504748-1/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.6776933910504748-1", "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:54:05,028] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:05,029] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/element {"using": "id", "value": "pwd", "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:54:05,041] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:05,041] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/element/0.6776933910504748-2/clear {"id": "0.6776933910504748-2", "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:54:05,152] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:05,152] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/element/0.6776933910504748-2/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.6776933910504748-2", "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:54:05,227] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:05,227] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/element {"using": "id", "value": "pwdRepeat", "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:54:05,238] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:05,239] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/element/0.6776933910504748-3/clear {"id": "0.6776933910504748-3", "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:54:05,257] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:05,257] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/element/0.6776933910504748-3/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.6776933910504748-3", "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:54:05,293] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:05,294] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/element {"using": "id", "value": "mobile_phone", "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:54:05,305] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:05,306] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/element/0.6776933910504748-4/clear {"id": "0.6776933910504748-4", "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:54:05,322] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:05,323] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/element/0.6776933910504748-4/value {"text": "18627888001", "value": ["1", "8", "6", "2", "7", "8", "8", "8", "0", "0", "1"], "id": "0.6776933910504748-4", "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:54:05,379] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:05,380] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/element {"using": "id", "value": "registsubmit", "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:54:05,393] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:05,393] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/element/0.6776933910504748-5/click {"id": "0.6776933910504748-5", "sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:54:05,528] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:06,681] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:06,681] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/element {"using": "xpath", "value": "//a[@class='link-regist']", "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:54:06,702] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:06,703] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/element/0.9001844698676285-1/click {"id": "0.9001844698676285-1", "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:54:07,040] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:07,040] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/element {"using": "id", "value": "username", "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:54:07,057] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:07,058] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/element/0.13623421015972426-1/clear {"id": "0.13623421015972426-1", "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:54:07,080] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:07,080] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/element/0.13623421015972426-1/value {"text": "admin2", "value": ["a", "d", "m", "i", "n", "2"], "id": "0.13623421015972426-1", "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:54:07,133] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:07,133] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/element {"using": "id", "value": "pwd", "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:54:07,145] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:07,146] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/element/0.13623421015972426-2/clear {"id": "0.13623421015972426-2", "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:54:07,237] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:07,237] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/element/0.13623421015972426-2/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.13623421015972426-2", "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:54:07,280] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:07,280] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/element {"using": "id", "value": "pwdRepeat", "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:54:07,293] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:07,293] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/element/0.13623421015972426-3/clear {"id": "0.13623421015972426-3", "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:54:07,310] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:07,311] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/element/0.13623421015972426-3/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.13623421015972426-3", "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:54:07,348] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:07,349] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/element {"using": "id", "value": "mobile_phone", "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:54:07,360] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:07,360] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/element/0.13623421015972426-4/clear {"id": "0.13623421015972426-4", "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:54:07,378] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:07,378] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/element/0.13623421015972426-4/value {"text": "18627888002", "value": ["1", "8", "6", "2", "7", "8", "8", "8", "0", "0", "2"], "id": "0.13623421015972426-4", "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:54:07,425] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:07,425] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/element {"using": "id", "value": "registsubmit", "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:54:07,435] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:07,436] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/element/0.13623421015972426-5/click {"id": "0.13623421015972426-5", "sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:54:07,528] [11180] [remote_connection.py(480)] - GET http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/screenshot {"sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:54:07,596] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:07,962] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:08,965] [11180] [remote_connection.py(480)] - GET http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309/screenshot {"sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:54:09,389] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:09,392] [11180] [remote_connection.py(480)] - DELETE http://127.0.0.1:49612/session/c80e297f329131cb59a2ad633fc8c309 {"sessionId": "c80e297f329131cb59a2ad633fc8c309"}
+[  DEBUG] [2018-05-24 15:54:09,441] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:09,596] [2144] [remote_connection.py(480)] - GET http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/screenshot {"sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:54:09,917] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:09,917] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/element {"using": "xpath", "value": "//a[@class='link-regist']", "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:54:09,943] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:09,944] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/element/0.32114861024324703-1/click {"id": "0.32114861024324703-1", "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:54:10,038] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:10,332] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:10,332] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/element {"using": "id", "value": "username", "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:54:10,348] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:10,349] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/element/0.8464735418358815-1/clear {"id": "0.8464735418358815-1", "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:54:10,377] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:10,377] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/element/0.8464735418358815-1/value {"text": "admin3", "value": ["a", "d", "m", "i", "n", "3"], "id": "0.8464735418358815-1", "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:54:10,430] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:10,430] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/element {"using": "id", "value": "pwd", "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:54:10,442] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:10,443] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/element/0.8464735418358815-2/clear {"id": "0.8464735418358815-2", "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:54:10,548] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:10,548] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/element/0.8464735418358815-2/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.8464735418358815-2", "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:54:10,595] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:10,596] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/element {"using": "id", "value": "pwdRepeat", "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:54:10,609] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:10,609] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/element/0.8464735418358815-3/clear {"id": "0.8464735418358815-3", "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:54:10,629] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:10,629] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/element/0.8464735418358815-3/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.8464735418358815-3", "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:54:10,671] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:10,671] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/element {"using": "id", "value": "mobile_phone", "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:54:10,688] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:10,688] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/element/0.8464735418358815-4/clear {"id": "0.8464735418358815-4", "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:54:10,707] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:10,707] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/element/0.8464735418358815-4/value {"text": "18627888003", "value": ["1", "8", "6", "2", "7", "8", "8", "8", "0", "0", "3"], "id": "0.8464735418358815-4", "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:54:10,766] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:10,766] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/element {"using": "id", "value": "registsubmit", "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:54:10,779] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:10,779] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/element/0.8464735418358815-5/click {"id": "0.8464735418358815-5", "sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:54:10,932] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:11,042] [2144] [remote_connection.py(480)] - GET http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba/screenshot {"sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:54:11,395] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:11,397] [2144] [remote_connection.py(480)] - DELETE http://127.0.0.1:49623/session/9dde30480d248376125cde16a4bd93ba {"sessionId": "9dde30480d248376125cde16a4bd93ba"}
+[  DEBUG] [2018-05-24 15:54:11,433] [2144] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:12,503] [11180] [Result.py(107)] - 测试执行通过： test_registration_01___admin1____admin1____admin1____18627888001____3__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:54:12,503] [11180] [Result.py(59)] - 测试结束： test_registration_01___admin1____admin1____admin1____18627888001____3__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:54:12,504] [11180] [Result.py(61)] - 耗时： 25.46216409774522
+[   INFO] [2018-05-24 15:54:12,504] [11180] [Result.py(48)] - 开始测试： test_registration_04___admin4____admin1____admin1____18627888004____3__ (Test_Case.registration_case.registrationcase)
+[  DEBUG] [2018-05-24 15:54:12,932] [14884] [remote_connection.py(480)] - GET http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/screenshot {"sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:54:13,302] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:14,305] [14884] [remote_connection.py(480)] - GET http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25/screenshot {"sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[   INFO] [2018-05-24 15:54:14,445] [2144] [Result.py(107)] - 测试执行通过： test_registration_02___admin2____admin1____admin1____18627888002____3__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:54:14,446] [2144] [Result.py(59)] - 测试结束： test_registration_02___admin2____admin1____admin1____18627888002____3__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:54:14,447] [2144] [Result.py(61)] - 耗时： 24.40371533780671
+[   INFO] [2018-05-24 15:54:14,447] [2144] [Result.py(48)] - 开始测试： test_registration_05___admin5____admin1____admin1____18627888005____3__ (Test_Case.registration_case.registrationcase)
+[  DEBUG] [2018-05-24 15:54:14,661] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:14,663] [14884] [remote_connection.py(480)] - DELETE http://127.0.0.1:49651/session/78b89182edb1e12050f5e4666c841b25 {"sessionId": "78b89182edb1e12050f5e4666c841b25"}
+[  DEBUG] [2018-05-24 15:54:14,687] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:15,596] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[  DEBUG] [2018-05-24 15:54:17,368] [11180] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:17,368] [11180] [selenium_tools.py(32)] - 打开浏览器：chrome
+[  DEBUG] [2018-05-24 15:54:17,368] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:17,369] [11180] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:17,369] [11180] [selenium_tools.py(34)] - 设置隐式等待 10 S
+[  DEBUG] [2018-05-24 15:54:17,370] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/window/current/maximize {"windowHandle": "current", "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:17,566] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[   INFO] [2018-05-24 15:54:17,692] [14884] [Result.py(107)] - 测试执行通过： test_registration_03___admin3____admin1____admin1____18627888003____3__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:54:17,692] [14884] [Result.py(59)] - 测试结束： test_registration_03___admin3____admin1____admin1____18627888003____3__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:54:17,692] [14884] [Result.py(61)] - 耗时： 24.649029469991742
+[   INFO] [2018-05-24 15:54:17,692] [14884] [Result.py(48)] - 开始测试： test_registration_06___admin1____admin1____admin1____18627888007____1__ (Test_Case.registration_case.registrationcase)
+[  DEBUG] [2018-05-24 15:54:18,596] [11180] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:18,597] [11180] [selenium_tools.py(36)] - 浏览器最大化
+[  DEBUG] [2018-05-24 15:54:18,597] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:18,598] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:18,598] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/url {"url": "http://www.liwenli.com/dsc/", "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:19,266] [2144] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:19,266] [2144] [selenium_tools.py(32)] - 打开浏览器：chrome
+[  DEBUG] [2018-05-24 15:54:19,266] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:19,267] [2144] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:19,267] [2144] [selenium_tools.py(34)] - 设置隐式等待 10 S
+[  DEBUG] [2018-05-24 15:54:19,267] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/window/current/maximize {"windowHandle": "current", "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:20,438] [2144] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:20,438] [2144] [selenium_tools.py(36)] - 浏览器最大化
+[  DEBUG] [2018-05-24 15:54:20,439] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:20,439] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:20,439] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/url {"url": "http://www.liwenli.com/dsc/", "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:20,768] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[  DEBUG] [2018-05-24 15:54:22,465] [14884] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:22,466] [14884] [selenium_tools.py(32)] - 打开浏览器：chrome
+[  DEBUG] [2018-05-24 15:54:22,466] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:22,468] [14884] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:22,468] [14884] [selenium_tools.py(34)] - 设置隐式等待 10 S
+[  DEBUG] [2018-05-24 15:54:22,469] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/window/current/maximize {"windowHandle": "current", "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:23,650] [14884] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:23,650] [14884] [selenium_tools.py(36)] - 浏览器最大化
+[  DEBUG] [2018-05-24 15:54:23,651] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:23,651] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:23,651] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/url {"url": "http://www.liwenli.com/dsc/", "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:29,206] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:29,206] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/element {"using": "xpath", "value": "//a[@class='link-regist']", "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:29,238] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:29,238] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/element/0.20281674908565406-1/click {"id": "0.20281674908565406-1", "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:29,653] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:29,653] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/element {"using": "id", "value": "username", "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:29,666] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:29,667] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/element/0.5898361993250385-1/clear {"id": "0.5898361993250385-1", "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:29,689] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:29,690] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/element/0.5898361993250385-1/value {"text": "admin4", "value": ["a", "d", "m", "i", "n", "4"], "id": "0.5898361993250385-1", "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:29,741] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:29,742] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/element {"using": "id", "value": "pwd", "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:29,754] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:29,754] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/element/0.5898361993250385-2/clear {"id": "0.5898361993250385-2", "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:29,863] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:29,864] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/element/0.5898361993250385-2/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.5898361993250385-2", "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:29,911] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:29,912] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/element {"using": "id", "value": "pwdRepeat", "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:29,922] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:29,922] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/element/0.5898361993250385-3/clear {"id": "0.5898361993250385-3", "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:29,948] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:29,948] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/element/0.5898361993250385-3/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.5898361993250385-3", "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:29,983] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:29,984] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/element {"using": "id", "value": "mobile_phone", "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:29,994] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:29,994] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/element/0.5898361993250385-4/clear {"id": "0.5898361993250385-4", "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:30,010] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:30,010] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/element/0.5898361993250385-4/value {"text": "18627888004", "value": ["1", "8", "6", "2", "7", "8", "8", "8", "0", "0", "4"], "id": "0.5898361993250385-4", "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:30,054] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:30,055] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/element {"using": "id", "value": "registsubmit", "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:30,066] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:30,066] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/element/0.5898361993250385-5/click {"id": "0.5898361993250385-5", "sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:30,200] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:31,124] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:31,124] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/element {"using": "xpath", "value": "//a[@class='link-regist']", "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:31,149] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:31,150] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/element/0.4429157335622007-1/click {"id": "0.4429157335622007-1", "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:31,531] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:31,531] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/element {"using": "id", "value": "username", "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:31,547] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:31,547] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/element/0.7454281265545297-1/clear {"id": "0.7454281265545297-1", "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:31,569] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:31,569] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/element/0.7454281265545297-1/value {"text": "admin5", "value": ["a", "d", "m", "i", "n", "5"], "id": "0.7454281265545297-1", "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:31,623] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:31,623] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/element {"using": "id", "value": "pwd", "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:31,635] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:31,635] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/element/0.7454281265545297-2/clear {"id": "0.7454281265545297-2", "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:31,714] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:31,714] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/element/0.7454281265545297-2/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.7454281265545297-2", "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:31,759] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:31,759] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/element {"using": "id", "value": "pwdRepeat", "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:31,771] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:31,772] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/element/0.7454281265545297-3/clear {"id": "0.7454281265545297-3", "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:31,791] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:31,791] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/element/0.7454281265545297-3/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.7454281265545297-3", "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:31,833] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:31,833] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/element {"using": "id", "value": "mobile_phone", "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:31,843] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:31,844] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/element/0.7454281265545297-4/clear {"id": "0.7454281265545297-4", "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:31,863] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:31,864] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/element/0.7454281265545297-4/value {"text": "18627888005", "value": ["1", "8", "6", "2", "7", "8", "8", "8", "0", "0", "5"], "id": "0.7454281265545297-4", "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:31,913] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:31,913] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/element {"using": "id", "value": "registsubmit", "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:31,923] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:31,923] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/element/0.7454281265545297-5/click {"id": "0.7454281265545297-5", "sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:32,050] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:32,201] [11180] [remote_connection.py(480)] - GET http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/screenshot {"sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:32,627] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:33,631] [11180] [remote_connection.py(480)] - GET http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5/screenshot {"sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:34,050] [2144] [remote_connection.py(480)] - GET http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/screenshot {"sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:34,066] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:34,071] [11180] [remote_connection.py(480)] - DELETE http://127.0.0.1:49784/session/b80f65dffe69d2241ba5ba758dbacdc5 {"sessionId": "b80f65dffe69d2241ba5ba758dbacdc5"}
+[  DEBUG] [2018-05-24 15:54:34,150] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:34,376] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:34,376] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/element {"using": "xpath", "value": "//a[@class='link-regist']", "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:34,405] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:34,405] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/element/0.5593482170182797-1/click {"id": "0.5593482170182797-1", "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:34,506] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:34,762] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:34,762] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/element {"using": "id", "value": "username", "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:34,774] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:34,775] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/element/0.9184773407652678-1/clear {"id": "0.9184773407652678-1", "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:34,796] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:34,796] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/element/0.9184773407652678-1/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.9184773407652678-1", "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:34,851] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:34,851] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/element {"using": "id", "value": "pwd", "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:34,862] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:34,862] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/element/0.9184773407652678-2/clear {"id": "0.9184773407652678-2", "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:34,955] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:34,956] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/element/0.9184773407652678-2/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.9184773407652678-2", "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:35,012] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:35,012] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/element {"using": "id", "value": "pwdRepeat", "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:35,029] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:35,030] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/element/0.9184773407652678-3/clear {"id": "0.9184773407652678-3", "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:35,048] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:35,048] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/element/0.9184773407652678-3/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.9184773407652678-3", "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:35,085] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:35,085] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/element {"using": "id", "value": "mobile_phone", "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:35,096] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:35,096] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/element/0.9184773407652678-4/clear {"id": "0.9184773407652678-4", "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:35,112] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:35,113] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/element/0.9184773407652678-4/value {"text": "18627888007", "value": ["1", "8", "6", "2", "7", "8", "8", "8", "0", "0", "7"], "id": "0.9184773407652678-4", "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:35,163] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:35,163] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/element {"using": "id", "value": "registsubmit", "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:35,173] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:35,173] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/element/0.9184773407652678-5/click {"id": "0.9184773407652678-5", "sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:35,289] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:35,509] [2144] [remote_connection.py(480)] - GET http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f/screenshot {"sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:35,850] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:35,852] [2144] [remote_connection.py(480)] - DELETE http://127.0.0.1:49794/session/fdf7666902fad752b0f71ace362ba12f {"sessionId": "fdf7666902fad752b0f71ace362ba12f"}
+[  DEBUG] [2018-05-24 15:54:35,878] [2144] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:37,156] [11180] [Result.py(107)] - 测试执行通过： test_registration_04___admin4____admin1____admin1____18627888004____3__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:54:37,157] [11180] [Result.py(59)] - 测试结束： test_registration_04___admin4____admin1____admin1____18627888004____3__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:54:37,157] [11180] [Result.py(61)] - 耗时： 24.653167949987
+[   INFO] [2018-05-24 15:54:37,157] [11180] [Result.py(48)] - 开始测试： test_registration_07___admin2____admin1____admin1____18627888008____1__ (Test_Case.registration_case.registrationcase)
+[  DEBUG] [2018-05-24 15:54:37,289] [14884] [remote_connection.py(480)] - GET http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/screenshot {"sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:37,650] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:38,653] [14884] [remote_connection.py(480)] - GET http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76/screenshot {"sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[   INFO] [2018-05-24 15:54:38,892] [2144] [Result.py(107)] - 测试执行通过： test_registration_05___admin5____admin1____admin1____18627888005____3__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:54:38,892] [2144] [Result.py(59)] - 测试结束： test_registration_05___admin5____admin1____admin1____18627888005____3__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:54:38,892] [2144] [Result.py(61)] - 耗时： 24.44542885554891
+[   INFO] [2018-05-24 15:54:38,893] [2144] [Result.py(48)] - 开始测试： test_registration_08___admin3____admin1____admin1____18627888009____1__ (Test_Case.registration_case.registrationcase)
+[  DEBUG] [2018-05-24 15:54:39,046] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:39,048] [14884] [remote_connection.py(480)] - DELETE http://127.0.0.1:49830/session/05534b60cc247c75b1bfffb9b317fa76 {"sessionId": "05534b60cc247c75b1bfffb9b317fa76"}
+[  DEBUG] [2018-05-24 15:54:39,081] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:40,251] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[  DEBUG] [2018-05-24 15:54:41,974] [11180] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:41,974] [11180] [selenium_tools.py(32)] - 打开浏览器：chrome
+[  DEBUG] [2018-05-24 15:54:41,974] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:41,975] [11180] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:41,975] [11180] [selenium_tools.py(34)] - 设置隐式等待 10 S
+[  DEBUG] [2018-05-24 15:54:41,975] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/window/current/maximize {"windowHandle": "current", "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:42,004] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[   INFO] [2018-05-24 15:54:42,110] [14884] [Result.py(107)] - 测试执行通过： test_registration_06___admin1____admin1____admin1____18627888007____1__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:54:42,110] [14884] [Result.py(59)] - 测试结束： test_registration_06___admin1____admin1____admin1____18627888007____1__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:54:42,111] [14884] [Result.py(61)] - 耗时： 24.418910766662254
+[   INFO] [2018-05-24 15:54:42,111] [14884] [Result.py(48)] - 开始测试： test_registration_09___admin4____admin1____admin1____18627888010____1__ (Test_Case.registration_case.registrationcase)
+[  DEBUG] [2018-05-24 15:54:43,174] [11180] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:43,174] [11180] [selenium_tools.py(36)] - 浏览器最大化
+[  DEBUG] [2018-05-24 15:54:43,175] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:43,175] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:43,176] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/url {"url": "http://www.liwenli.com/dsc/", "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:43,732] [2144] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:43,732] [2144] [selenium_tools.py(32)] - 打开浏览器：chrome
+[  DEBUG] [2018-05-24 15:54:43,732] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:43,733] [2144] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:43,733] [2144] [selenium_tools.py(34)] - 设置隐式等待 10 S
+[  DEBUG] [2018-05-24 15:54:43,733] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/window/current/maximize {"windowHandle": "current", "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:44,938] [2144] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:44,939] [2144] [selenium_tools.py(36)] - 浏览器最大化
+[  DEBUG] [2018-05-24 15:54:44,939] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:44,939] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:44,940] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/url {"url": "http://www.liwenli.com/dsc/", "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:45,174] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[  DEBUG] [2018-05-24 15:54:46,874] [14884] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:46,874] [14884] [selenium_tools.py(32)] - 打开浏览器：chrome
+[  DEBUG] [2018-05-24 15:54:46,874] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:54:46,875] [14884] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:46,875] [14884] [selenium_tools.py(34)] - 设置隐式等待 10 S
+[  DEBUG] [2018-05-24 15:54:46,875] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/window/current/maximize {"windowHandle": "current", "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:54:48,062] [14884] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:54:48,063] [14884] [selenium_tools.py(36)] - 浏览器最大化
+[  DEBUG] [2018-05-24 15:54:48,063] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:54:48,064] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:48,064] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/url {"url": "http://www.liwenli.com/dsc/", "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:54:53,853] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:53,854] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/element {"using": "xpath", "value": "//a[@class='link-regist']", "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:53,889] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:53,889] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/element/0.027398859820248367-1/click {"id": "0.027398859820248367-1", "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:54,184] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:54,184] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/element {"using": "id", "value": "username", "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:54,201] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:54,202] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/element/0.5334062550931395-1/clear {"id": "0.5334062550931395-1", "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:54,224] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:54,224] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/element/0.5334062550931395-1/value {"text": "admin2", "value": ["a", "d", "m", "i", "n", "2"], "id": "0.5334062550931395-1", "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:54,290] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:54,290] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/element {"using": "id", "value": "pwd", "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:54,302] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:54,303] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/element/0.5334062550931395-2/clear {"id": "0.5334062550931395-2", "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:54,382] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:54,382] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/element/0.5334062550931395-2/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.5334062550931395-2", "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:54,435] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:54,435] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/element {"using": "id", "value": "pwdRepeat", "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:54,446] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:54,447] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/element/0.5334062550931395-3/clear {"id": "0.5334062550931395-3", "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:54,465] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:54,465] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/element/0.5334062550931395-3/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.5334062550931395-3", "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:54,505] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:54,506] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/element {"using": "id", "value": "mobile_phone", "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:54,516] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:54,517] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/element/0.5334062550931395-4/clear {"id": "0.5334062550931395-4", "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:54,535] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:54,535] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/element/0.5334062550931395-4/value {"text": "18627888008", "value": ["1", "8", "6", "2", "7", "8", "8", "8", "0", "0", "8"], "id": "0.5334062550931395-4", "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:54,584] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:54,584] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/element {"using": "id", "value": "registsubmit", "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:54,594] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:54,594] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/element/0.5334062550931395-5/click {"id": "0.5334062550931395-5", "sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:55,133] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:55,559] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:55,559] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/element {"using": "xpath", "value": "//a[@class='link-regist']", "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:55,583] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:55,584] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/element/0.20839161861539957-1/click {"id": "0.20839161861539957-1", "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:55,921] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:55,922] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/element {"using": "id", "value": "username", "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:55,938] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:55,938] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/element/0.42713398868014285-1/clear {"id": "0.42713398868014285-1", "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:55,957] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:55,957] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/element/0.42713398868014285-1/value {"text": "admin3", "value": ["a", "d", "m", "i", "n", "3"], "id": "0.42713398868014285-1", "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:56,009] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:56,010] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/element {"using": "id", "value": "pwd", "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:56,021] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:56,021] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/element/0.42713398868014285-2/clear {"id": "0.42713398868014285-2", "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:56,098] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:56,098] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/element/0.42713398868014285-2/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.42713398868014285-2", "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:56,138] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:56,139] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/element {"using": "id", "value": "pwdRepeat", "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:56,149] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:56,150] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/element/0.42713398868014285-3/clear {"id": "0.42713398868014285-3", "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:56,168] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:56,168] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/element/0.42713398868014285-3/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.42713398868014285-3", "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:56,210] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:56,210] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/element {"using": "id", "value": "mobile_phone", "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:56,221] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:56,221] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/element/0.42713398868014285-4/clear {"id": "0.42713398868014285-4", "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:56,240] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:56,241] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/element/0.42713398868014285-4/value {"text": "18627888009", "value": ["1", "8", "6", "2", "7", "8", "8", "8", "0", "0", "9"], "id": "0.42713398868014285-4", "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:56,289] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:56,289] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/element {"using": "id", "value": "registsubmit", "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:56,304] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:56,304] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/element/0.42713398868014285-5/click {"id": "0.42713398868014285-5", "sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:56,748] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:57,134] [11180] [remote_connection.py(480)] - GET http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/screenshot {"sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:57,565] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:58,567] [11180] [remote_connection.py(480)] - GET http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324/screenshot {"sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:58,669] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:58,670] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/element {"using": "xpath", "value": "//a[@class='link-regist']", "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:54:58,714] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:58,714] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/element/0.19990458983128456-1/click {"id": "0.19990458983128456-1", "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:54:58,751] [2144] [remote_connection.py(480)] - GET http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/screenshot {"sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:54:58,996] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:59,000] [11180] [remote_connection.py(480)] - DELETE http://127.0.0.1:49965/session/1f9308c4fc869a9d8d062e7c1cc40324 {"sessionId": "1f9308c4fc869a9d8d062e7c1cc40324"}
+[  DEBUG] [2018-05-24 15:54:59,052] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:59,221] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:59,222] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/element {"using": "id", "value": "username", "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:54:59,240] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:59,240] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/element/0.3128730270970004-1/clear {"id": "0.3128730270970004-1", "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:54:59,271] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:59,271] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/element/0.3128730270970004-1/value {"text": "admin4", "value": ["a", "d", "m", "i", "n", "4"], "id": "0.3128730270970004-1", "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:54:59,286] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:59,342] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:59,342] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/element {"using": "id", "value": "pwd", "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:54:59,357] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:59,358] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/element/0.3128730270970004-2/clear {"id": "0.3128730270970004-2", "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:54:59,440] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:59,441] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/element/0.3128730270970004-2/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.3128730270970004-2", "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:54:59,497] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:59,497] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/element {"using": "id", "value": "pwdRepeat", "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:54:59,513] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:59,513] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/element/0.3128730270970004-3/clear {"id": "0.3128730270970004-3", "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:54:59,536] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:59,537] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/element/0.3128730270970004-3/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.3128730270970004-3", "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:54:59,576] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:59,576] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/element {"using": "id", "value": "mobile_phone", "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:54:59,588] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:59,589] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/element/0.3128730270970004-4/clear {"id": "0.3128730270970004-4", "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:54:59,607] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:59,607] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/element/0.3128730270970004-4/value {"text": "18627888010", "value": ["1", "8", "6", "2", "7", "8", "8", "8", "0", "1", "0"], "id": "0.3128730270970004-4", "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:54:59,661] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:59,662] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/element {"using": "id", "value": "registsubmit", "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:54:59,675] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:54:59,675] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/element/0.3128730270970004-5/click {"id": "0.3128730270970004-5", "sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:55:00,125] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:00,289] [2144] [remote_connection.py(480)] - GET http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc/screenshot {"sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:55:00,655] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:00,657] [2144] [remote_connection.py(480)] - DELETE http://127.0.0.1:49983/session/8893097f479432a7b7bee64538baf3cc {"sessionId": "8893097f479432a7b7bee64538baf3cc"}
+[  DEBUG] [2018-05-24 15:55:00,692] [2144] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:02,103] [11180] [Result.py(107)] - 测试执行通过： test_registration_07___admin2____admin1____admin1____18627888008____1__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:55:02,103] [11180] [Result.py(59)] - 测试结束： test_registration_07___admin2____admin1____admin1____18627888008____1__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:55:02,104] [11180] [Result.py(61)] - 耗时： 24.946627121697993
+[   INFO] [2018-05-24 15:55:02,104] [11180] [Result.py(48)] - 开始测试： test_registration_10___admin5____admin1____admin1____18627888011____1__ (Test_Case.registration_case.registrationcase)
+[  DEBUG] [2018-05-24 15:55:02,125] [14884] [remote_connection.py(480)] - GET http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/screenshot {"sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:55:02,541] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:03,543] [14884] [remote_connection.py(480)] - GET http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332/screenshot {"sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[   INFO] [2018-05-24 15:55:03,706] [2144] [Result.py(107)] - 测试执行通过： test_registration_08___admin3____admin1____admin1____18627888009____1__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:55:03,707] [2144] [Result.py(59)] - 测试结束： test_registration_08___admin3____admin1____admin1____18627888009____1__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:55:03,708] [2144] [Result.py(61)] - 耗时： 24.815072152556986
+[   INFO] [2018-05-24 15:55:03,708] [2144] [Result.py(48)] - 开始测试： test_registration_11___admin6____admin1____admin1____18627888001____2__ (Test_Case.registration_case.registrationcase)
+[  DEBUG] [2018-05-24 15:55:03,920] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:03,921] [14884] [remote_connection.py(480)] - DELETE http://127.0.0.1:50017/session/7d228898f71a98bdc3bf8a2f54a79332 {"sessionId": "7d228898f71a98bdc3bf8a2f54a79332"}
+[  DEBUG] [2018-05-24 15:55:03,957] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:05,193] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[  DEBUG] [2018-05-24 15:55:06,841] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[  DEBUG] [2018-05-24 15:55:06,935] [11180] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:06,936] [11180] [selenium_tools.py(32)] - 打开浏览器：chrome
+[  DEBUG] [2018-05-24 15:55:06,936] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:06,938] [11180] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:06,938] [11180] [selenium_tools.py(34)] - 设置隐式等待 10 S
+[  DEBUG] [2018-05-24 15:55:06,938] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/window/current/maximize {"windowHandle": "current", "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[   INFO] [2018-05-24 15:55:06,972] [14884] [Result.py(107)] - 测试执行通过： test_registration_09___admin4____admin1____admin1____18627888010____1__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:55:06,972] [14884] [Result.py(59)] - 测试结束： test_registration_09___admin4____admin1____admin1____18627888010____1__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:55:06,972] [14884] [Result.py(61)] - 耗时： 24.861551650602358
+[   INFO] [2018-05-24 15:55:06,972] [14884] [Result.py(48)] - 开始测试： test_registration_12___admin7____admin1____admin1____18627888002____2__ (Test_Case.registration_case.registrationcase)
+[  DEBUG] [2018-05-24 15:55:08,133] [11180] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:08,134] [11180] [selenium_tools.py(36)] - 浏览器最大化
+[  DEBUG] [2018-05-24 15:55:08,134] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:08,134] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:08,134] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/url {"url": "http://www.liwenli.com/dsc/", "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:08,693] [2144] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:08,694] [2144] [selenium_tools.py(32)] - 打开浏览器：chrome
+[  DEBUG] [2018-05-24 15:55:08,694] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:08,695] [2144] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:08,695] [2144] [selenium_tools.py(34)] - 设置隐式等待 10 S
+[  DEBUG] [2018-05-24 15:55:08,695] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/window/current/maximize {"windowHandle": "current", "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:09,868] [2144] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:09,868] [2144] [selenium_tools.py(36)] - 浏览器最大化
+[  DEBUG] [2018-05-24 15:55:09,868] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:09,869] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:09,869] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/url {"url": "http://www.liwenli.com/dsc/", "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:10,050] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[  DEBUG] [2018-05-24 15:55:11,758] [14884] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:11,759] [14884] [selenium_tools.py(32)] - 打开浏览器：chrome
+[  DEBUG] [2018-05-24 15:55:11,759] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:11,760] [14884] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:11,760] [14884] [selenium_tools.py(34)] - 设置隐式等待 10 S
+[  DEBUG] [2018-05-24 15:55:11,760] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/window/current/maximize {"windowHandle": "current", "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:12,928] [14884] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:12,929] [14884] [selenium_tools.py(36)] - 浏览器最大化
+[  DEBUG] [2018-05-24 15:55:12,929] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:12,929] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:12,930] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/url {"url": "http://www.liwenli.com/dsc/", "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:18,803] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:18,804] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/element {"using": "xpath", "value": "//a[@class='link-regist']", "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:18,826] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:18,827] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/element/0.44899598043470723-1/click {"id": "0.44899598043470723-1", "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:19,197] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:19,197] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/element {"using": "id", "value": "username", "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:19,212] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:19,212] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/element/0.6131386030822579-1/clear {"id": "0.6131386030822579-1", "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:19,235] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:19,235] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/element/0.6131386030822579-1/value {"text": "admin5", "value": ["a", "d", "m", "i", "n", "5"], "id": "0.6131386030822579-1", "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:19,294] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:19,294] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/element {"using": "id", "value": "pwd", "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:19,310] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:19,310] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/element/0.6131386030822579-2/clear {"id": "0.6131386030822579-2", "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:19,421] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:19,422] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/element/0.6131386030822579-2/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.6131386030822579-2", "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:19,467] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:19,467] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/element {"using": "id", "value": "pwdRepeat", "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:19,480] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:19,481] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/element/0.6131386030822579-3/clear {"id": "0.6131386030822579-3", "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:19,498] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:19,498] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/element/0.6131386030822579-3/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.6131386030822579-3", "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:19,533] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:19,533] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/element {"using": "id", "value": "mobile_phone", "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:19,545] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:19,545] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/element/0.6131386030822579-4/clear {"id": "0.6131386030822579-4", "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:19,564] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:19,564] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/element/0.6131386030822579-4/value {"text": "18627888011", "value": ["1", "8", "6", "2", "7", "8", "8", "8", "0", "1", "1"], "id": "0.6131386030822579-4", "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:19,616] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:19,617] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/element {"using": "id", "value": "registsubmit", "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:19,634] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:19,635] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/element/0.6131386030822579-5/click {"id": "0.6131386030822579-5", "sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:20,199] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:20,515] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:20,516] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/element {"using": "xpath", "value": "//a[@class='link-regist']", "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:20,538] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:20,539] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/element/0.36526722577791615-1/click {"id": "0.36526722577791615-1", "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:20,858] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:20,858] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/element {"using": "id", "value": "username", "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:20,871] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:20,871] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/element/0.4523043451867259-1/clear {"id": "0.4523043451867259-1", "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:20,893] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:20,894] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/element/0.4523043451867259-1/value {"text": "admin6", "value": ["a", "d", "m", "i", "n", "6"], "id": "0.4523043451867259-1", "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:20,952] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:20,952] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/element {"using": "id", "value": "pwd", "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:20,965] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:20,966] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/element/0.4523043451867259-2/clear {"id": "0.4523043451867259-2", "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:21,073] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:21,074] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/element/0.4523043451867259-2/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.4523043451867259-2", "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:21,122] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:21,123] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/element {"using": "id", "value": "pwdRepeat", "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:21,135] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:21,135] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/element/0.4523043451867259-3/clear {"id": "0.4523043451867259-3", "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:21,156] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:21,156] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/element/0.4523043451867259-3/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.4523043451867259-3", "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:21,194] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:21,194] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/element {"using": "id", "value": "mobile_phone", "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:21,204] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:21,204] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/element/0.4523043451867259-4/clear {"id": "0.4523043451867259-4", "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:21,220] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:21,220] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/element/0.4523043451867259-4/value {"text": "18627888001", "value": ["1", "8", "6", "2", "7", "8", "8", "8", "0", "0", "1"], "id": "0.4523043451867259-4", "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:21,270] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:21,270] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/element {"using": "id", "value": "registsubmit", "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:21,281] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:21,281] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/element/0.4523043451867259-5/click {"id": "0.4523043451867259-5", "sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:21,422] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:22,200] [11180] [remote_connection.py(480)] - GET http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/screenshot {"sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:22,598] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:23,423] [2144] [remote_connection.py(480)] - GET http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/screenshot {"sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:23,508] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:23,509] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/element {"using": "xpath", "value": "//a[@class='link-regist']", "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:23,532] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:23,532] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/element/0.8783533389704115-1/click {"id": "0.8783533389704115-1", "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:23,600] [11180] [remote_connection.py(480)] - GET http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f/screenshot {"sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:23,925] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:23,992] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:23,993] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:23,994] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/element {"using": "id", "value": "username", "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:23,997] [11180] [remote_connection.py(480)] - DELETE http://127.0.0.1:50154/session/f4cd9644e9bcee8fda4e0765489c679f {"sessionId": "f4cd9644e9bcee8fda4e0765489c679f"}
+[  DEBUG] [2018-05-24 15:55:24,025] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:24,025] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/element/0.048172396508507465-1/clear {"id": "0.048172396508507465-1", "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:24,041] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:24,064] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:24,064] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/element/0.048172396508507465-1/value {"text": "admin7", "value": ["a", "d", "m", "i", "n", "7"], "id": "0.048172396508507465-1", "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:24,147] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:24,147] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/element {"using": "id", "value": "pwd", "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:24,162] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:24,163] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/element/0.048172396508507465-2/clear {"id": "0.048172396508507465-2", "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:24,247] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:24,247] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/element/0.048172396508507465-2/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.048172396508507465-2", "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:24,296] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:24,296] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/element {"using": "id", "value": "pwdRepeat", "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:24,310] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:24,310] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/element/0.048172396508507465-3/clear {"id": "0.048172396508507465-3", "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:24,328] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:24,328] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/element/0.048172396508507465-3/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.048172396508507465-3", "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:24,368] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:24,368] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/element {"using": "id", "value": "mobile_phone", "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:24,380] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:24,381] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/element/0.048172396508507465-4/clear {"id": "0.048172396508507465-4", "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:24,399] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:24,400] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/element/0.048172396508507465-4/value {"text": "18627888002", "value": ["1", "8", "6", "2", "7", "8", "8", "8", "0", "0", "2"], "id": "0.048172396508507465-4", "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:24,466] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:24,466] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/element {"using": "id", "value": "registsubmit", "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:24,480] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:24,481] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/element/0.048172396508507465-5/click {"id": "0.048172396508507465-5", "sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:24,608] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:24,930] [2144] [remote_connection.py(480)] - GET http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7/screenshot {"sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:25,286] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:25,288] [2144] [remote_connection.py(480)] - DELETE http://127.0.0.1:50162/session/413571d74842bf9210586545809144f7 {"sessionId": "413571d74842bf9210586545809144f7"}
+[  DEBUG] [2018-05-24 15:55:25,317] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:26,609] [14884] [remote_connection.py(480)] - GET http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/screenshot {"sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:26,988] [14884] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:27,045] [11180] [Result.py(107)] - 测试执行通过： test_registration_10___admin5____admin1____admin1____18627888011____1__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:55:27,046] [11180] [Result.py(59)] - 测试结束： test_registration_10___admin5____admin1____admin1____18627888011____1__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:55:27,046] [11180] [Result.py(61)] - 耗时： 24.942324710454656
+[   INFO] [2018-05-24 15:55:27,046] [11180] [Result.py(48)] - 开始测试： test_registration_13___admin8____admin1____admin1____18627888003____2__ (Test_Case.registration_case.registrationcase)
+[  DEBUG] [2018-05-24 15:55:27,990] [14884] [remote_connection.py(480)] - GET http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2/screenshot {"sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[   INFO] [2018-05-24 15:55:28,325] [2144] [Result.py(107)] - 测试执行通过： test_registration_11___admin6____admin1____admin1____18627888001____2__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:55:28,325] [2144] [Result.py(59)] - 测试结束： test_registration_11___admin6____admin1____admin1____18627888001____2__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:55:28,325] [2144] [Result.py(61)] - 耗时： 24.617271568220488
+[   INFO] [2018-05-24 15:55:28,325] [2144] [Result.py(48)] - 开始测试： test_registration_14___admin9____admin1____admin1____18627888004____2__ (Test_Case.registration_case.registrationcase)
+[  DEBUG] [2018-05-24 15:55:28,330] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:28,332] [14884] [remote_connection.py(480)] - DELETE http://127.0.0.1:50199/session/03609b7c3e15212bcfb7ac00355948a2 {"sessionId": "03609b7c3e15212bcfb7ac00355948a2"}
+[  DEBUG] [2018-05-24 15:55:28,385] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:30,155] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[   INFO] [2018-05-24 15:55:31,397] [14884] [Result.py(107)] - 测试执行通过： test_registration_12___admin7____admin1____admin1____18627888002____2__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:55:31,397] [14884] [Result.py(59)] - 测试结束： test_registration_12___admin7____admin1____admin1____18627888002____2__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:55:31,397] [14884] [Result.py(61)] - 耗时： 24.42569466935494
+[   INFO] [2018-05-24 15:55:31,397] [14884] [Result.py(48)] - 开始测试： test_registration_15___admi10____admin1____admin1____18627888005____2__ (Test_Case.registration_case.registrationcase)
+[  DEBUG] [2018-05-24 15:55:31,410] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[  DEBUG] [2018-05-24 15:55:31,964] [11180] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:31,964] [11180] [selenium_tools.py(32)] - 打开浏览器：chrome
+[  DEBUG] [2018-05-24 15:55:31,964] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:31,969] [11180] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:31,969] [11180] [selenium_tools.py(34)] - 设置隐式等待 10 S
+[  DEBUG] [2018-05-24 15:55:31,969] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/window/current/maximize {"windowHandle": "current", "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:33,139] [2144] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:33,139] [2144] [selenium_tools.py(32)] - 打开浏览器：chrome
+[  DEBUG] [2018-05-24 15:55:33,139] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:33,140] [2144] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:33,140] [2144] [selenium_tools.py(34)] - 设置隐式等待 10 S
+[  DEBUG] [2018-05-24 15:55:33,140] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/window/current/maximize {"windowHandle": "current", "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:33,180] [11180] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:33,181] [11180] [selenium_tools.py(36)] - 浏览器最大化
+[  DEBUG] [2018-05-24 15:55:33,181] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:33,181] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:33,182] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/url {"url": "http://www.liwenli.com/dsc/", "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:34,319] [2144] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:34,320] [2144] [selenium_tools.py(36)] - 浏览器最大化
+[  DEBUG] [2018-05-24 15:55:34,320] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:34,321] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:34,321] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/url {"url": "http://www.liwenli.com/dsc/", "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:34,460] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[  DEBUG] [2018-05-24 15:55:36,161] [14884] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:36,161] [14884] [selenium_tools.py(32)] - 打开浏览器：chrome
+[  DEBUG] [2018-05-24 15:55:36,161] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:36,162] [14884] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:36,162] [14884] [selenium_tools.py(34)] - 设置隐式等待 10 S
+[  DEBUG] [2018-05-24 15:55:36,162] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/window/current/maximize {"windowHandle": "current", "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:37,348] [14884] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:37,349] [14884] [selenium_tools.py(36)] - 浏览器最大化
+[  DEBUG] [2018-05-24 15:55:37,349] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:37,350] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:37,350] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/url {"url": "http://www.liwenli.com/dsc/", "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:43,825] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:43,825] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/element {"using": "xpath", "value": "//a[@class='link-regist']", "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:43,848] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:43,848] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/element/0.4001496899181447-1/click {"id": "0.4001496899181447-1", "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:44,151] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:44,152] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/element {"using": "id", "value": "username", "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:44,173] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:44,173] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/element/0.5530224143190021-1/clear {"id": "0.5530224143190021-1", "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:44,197] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:44,198] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/element/0.5530224143190021-1/value {"text": "admin8", "value": ["a", "d", "m", "i", "n", "8"], "id": "0.5530224143190021-1", "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:44,257] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:44,257] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/element {"using": "id", "value": "pwd", "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:44,270] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:44,270] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/element/0.5530224143190021-2/clear {"id": "0.5530224143190021-2", "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:44,349] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:44,350] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/element/0.5530224143190021-2/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.5530224143190021-2", "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:44,416] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:44,416] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/element {"using": "id", "value": "pwdRepeat", "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:44,429] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:44,429] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/element/0.5530224143190021-3/clear {"id": "0.5530224143190021-3", "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:44,451] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:44,452] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/element/0.5530224143190021-3/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.5530224143190021-3", "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:44,514] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:44,515] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/element {"using": "id", "value": "mobile_phone", "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:44,528] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:44,528] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/element/0.5530224143190021-4/clear {"id": "0.5530224143190021-4", "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:44,551] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:44,552] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/element/0.5530224143190021-4/value {"text": "18627888003", "value": ["1", "8", "6", "2", "7", "8", "8", "8", "0", "0", "3"], "id": "0.5530224143190021-4", "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:44,656] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:44,656] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/element {"using": "id", "value": "registsubmit", "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:44,681] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:44,682] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/element/0.5530224143190021-5/click {"id": "0.5530224143190021-5", "sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:44,864] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:44,993] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:44,994] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/element {"using": "xpath", "value": "//a[@class='link-regist']", "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:45,031] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:45,032] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/element/0.1390997495439379-1/click {"id": "0.1390997495439379-1", "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:45,332] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:45,332] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/element {"using": "id", "value": "username", "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:45,352] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:45,352] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/element/0.02777257707559011-1/clear {"id": "0.02777257707559011-1", "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:45,371] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:45,371] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/element/0.02777257707559011-1/value {"text": "admin9", "value": ["a", "d", "m", "i", "n", "9"], "id": "0.02777257707559011-1", "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:45,426] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:45,427] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/element {"using": "id", "value": "pwd", "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:45,438] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:45,438] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/element/0.02777257707559011-2/clear {"id": "0.02777257707559011-2", "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:45,514] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:45,515] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/element/0.02777257707559011-2/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.02777257707559011-2", "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:45,557] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:45,558] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/element {"using": "id", "value": "pwdRepeat", "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:45,569] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:45,569] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/element/0.02777257707559011-3/clear {"id": "0.02777257707559011-3", "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:45,586] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:45,586] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/element/0.02777257707559011-3/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.02777257707559011-3", "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:45,623] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:45,623] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/element {"using": "id", "value": "mobile_phone", "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:45,635] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:45,636] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/element/0.02777257707559011-4/clear {"id": "0.02777257707559011-4", "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:45,655] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:45,656] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/element/0.02777257707559011-4/value {"text": "18627888004", "value": ["1", "8", "6", "2", "7", "8", "8", "8", "0", "0", "4"], "id": "0.02777257707559011-4", "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:45,701] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:45,701] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/element {"using": "id", "value": "registsubmit", "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:45,712] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:45,713] [2144] [remote_connection.py(480)] - POST http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/element/0.02777257707559011-5/click {"id": "0.02777257707559011-5", "sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:45,842] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:46,865] [11180] [remote_connection.py(480)] - GET http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/screenshot {"sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:47,281] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:47,842] [2144] [remote_connection.py(480)] - GET http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/screenshot {"sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:47,908] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:47,908] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/element {"using": "xpath", "value": "//a[@class='link-regist']", "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:47,927] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:47,927] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/element/0.2644946819868512-1/click {"id": "0.2644946819868512-1", "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:48,283] [11180] [remote_connection.py(480)] - GET http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b/screenshot {"sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:48,312] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:48,395] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:48,395] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/element {"using": "id", "value": "username", "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:48,408] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:48,409] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/element/0.1564174317195559-1/clear {"id": "0.1564174317195559-1", "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:48,437] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:48,437] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/element/0.1564174317195559-1/value {"text": "admi10", "value": ["a", "d", "m", "i", "1", "0"], "id": "0.1564174317195559-1", "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:48,514] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:48,515] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/element {"using": "id", "value": "pwd", "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:48,537] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:48,537] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/element/0.1564174317195559-2/clear {"id": "0.1564174317195559-2", "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:48,669] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:48,673] [11180] [remote_connection.py(480)] - DELETE http://127.0.0.1:50347/session/898bcefe2afe1b53e725e0dac1a8a24b {"sessionId": "898bcefe2afe1b53e725e0dac1a8a24b"}
+[  DEBUG] [2018-05-24 15:55:48,685] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:48,686] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/element/0.1564174317195559-2/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.1564174317195559-2", "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:48,721] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:48,770] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:48,770] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/element {"using": "id", "value": "pwdRepeat", "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:48,786] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:48,786] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/element/0.1564174317195559-3/clear {"id": "0.1564174317195559-3", "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:48,809] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:48,810] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/element/0.1564174317195559-3/value {"text": "admin1", "value": ["a", "d", "m", "i", "n", "1"], "id": "0.1564174317195559-3", "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:48,852] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:48,853] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/element {"using": "id", "value": "mobile_phone", "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:48,865] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:48,865] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/element/0.1564174317195559-4/clear {"id": "0.1564174317195559-4", "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:48,883] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:48,883] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/element/0.1564174317195559-4/value {"text": "18627888005", "value": ["1", "8", "6", "2", "7", "8", "8", "8", "0", "0", "5"], "id": "0.1564174317195559-4", "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:48,935] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:48,935] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/element {"using": "id", "value": "registsubmit", "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:48,946] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:48,947] [14884] [remote_connection.py(480)] - POST http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/element/0.1564174317195559-5/click {"id": "0.1564174317195559-5", "sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:49,083] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:49,315] [2144] [remote_connection.py(480)] - GET http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f/screenshot {"sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:49,669] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:49,672] [2144] [remote_connection.py(480)] - DELETE http://127.0.0.1:50355/session/a707eb716e4ef17e2b177df2970b237f {"sessionId": "a707eb716e4ef17e2b177df2970b237f"}
+[  DEBUG] [2018-05-24 15:55:49,709] [2144] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:51,083] [14884] [remote_connection.py(480)] - GET http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/screenshot {"sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:51,482] [14884] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:51,740] [11180] [Result.py(107)] - 测试执行通过： test_registration_13___admin8____admin1____admin1____18627888003____2__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:55:51,740] [11180] [Result.py(59)] - 测试结束： test_registration_13___admin8____admin1____admin1____18627888003____2__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:55:51,740] [11180] [Result.py(61)] - 耗时： 24.694192671389402
+[   INFO] [2018-05-24 15:55:51,740] [11180] [Result.py(48)] - 开始测试： test_registration_16_____ (Test_Case.registration_case.registrationcase)
+[  DEBUG] [2018-05-24 15:55:52,489] [14884] [remote_connection.py(480)] - GET http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51/screenshot {"sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[   INFO] [2018-05-24 15:55:52,739] [2144] [Result.py(107)] - 测试执行通过： test_registration_14___admin9____admin1____admin1____18627888004____2__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:55:52,739] [2144] [Result.py(59)] - 测试结束： test_registration_14___admin9____admin1____admin1____18627888004____2__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:55:52,739] [2144] [Result.py(61)] - 耗时： 24.41466879615733
+[  DEBUG] [2018-05-24 15:55:52,862] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:52,865] [14884] [remote_connection.py(480)] - DELETE http://127.0.0.1:50382/session/b4e678c9dde9b9e17397f5bc3bee1c51 {"sessionId": "b4e678c9dde9b9e17397f5bc3bee1c51"}
+[  DEBUG] [2018-05-24 15:55:52,905] [14884] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:54,823] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50524/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[   INFO] [2018-05-24 15:55:55,909] [14884] [Result.py(107)] - 测试执行通过： test_registration_15___admi10____admin1____admin1____18627888005____2__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:55:55,909] [14884] [Result.py(59)] - 测试结束： test_registration_15___admi10____admin1____admin1____18627888005____2__ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:55:55,909] [14884] [Result.py(61)] - 耗时： 24.512589919853312
+[  DEBUG] [2018-05-24 15:55:56,583] [11180] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:56,583] [11180] [selenium_tools.py(32)] - 打开浏览器：chrome
+[  DEBUG] [2018-05-24 15:55:56,583] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50524/session/d0b99eb6b01cdd3c9c015e55041d65dc/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "d0b99eb6b01cdd3c9c015e55041d65dc"}
+[  DEBUG] [2018-05-24 15:55:56,584] [11180] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:56,584] [11180] [selenium_tools.py(34)] - 设置隐式等待 10 S
+[  DEBUG] [2018-05-24 15:55:56,584] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50524/session/d0b99eb6b01cdd3c9c015e55041d65dc/window/current/maximize {"windowHandle": "current", "sessionId": "d0b99eb6b01cdd3c9c015e55041d65dc"}
+[  DEBUG] [2018-05-24 15:55:57,773] [11180] [remote_connection.py(567)] - Finished Request
+[   INFO] [2018-05-24 15:55:57,773] [11180] [selenium_tools.py(36)] - 浏览器最大化
+[  DEBUG] [2018-05-24 15:55:57,774] [11180] [remote_connection.py(480)] - POST http://127.0.0.1:50524/session/d0b99eb6b01cdd3c9c015e55041d65dc/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "d0b99eb6b01cdd3c9c015e55041d65dc"}
+[  DEBUG] [2018-05-24 15:55:57,774] [11180] [remote_connection.py(567)] - Finished Request
+[  DEBUG] [2018-05-24 15:55:57,774] [11180] [remote_connection.py(480)] - DELETE http://127.0.0.1:50524/session/d0b99eb6b01cdd3c9c015e55041d65dc {"sessionId": "d0b99eb6b01cdd3c9c015e55041d65dc"}
+[  DEBUG] [2018-05-24 15:55:57,810] [11180] [remote_connection.py(567)] - Finished Request
+[  ERROR] [2018-05-24 15:56:00,823] [11180] [Result.py(126)] - 测试产生错误： test_registration_16_____ (Test_Case.registration_case.registrationcase)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+TypeError: test_registration() missing 4 required positional arguments: 'password', 'pwdRepeat', 'mobile_phone', and 'asserttpye'
+
+[   INFO] [2018-05-24 15:56:00,823] [11180] [Result.py(59)] - 测试结束： test_registration_16_____ (Test_Case.registration_case.registrationcase)
+[   INFO] [2018-05-24 15:56:00,824] [11180] [Result.py(61)] - 耗时： 9.083374007289365
+[   INFO] [2018-05-24 15:56:00,825] [8060] [HTMLReport.py(130)] - 
+Pass	test_registration_01___admin1____admin1____admin1____18627888001____3__ (Test_Case.registration_case.registrationcase)	
+            1.首页点击免费注册按钮
+            2.注册页面输入username
+            3.输入密码
+            4.再次输入密码
+            5.输入手机号
+            6.点击提交注册
+            7.断言验证是否注册成功
+            8.退出浏览器
+            
+Pass	test_registration_02___admin2____admin1____admin1____18627888002____3__ (Test_Case.registration_case.registrationcase)	
+            1.首页点击免费注册按钮
+            2.注册页面输入username
+            3.输入密码
+            4.再次输入密码
+            5.输入手机号
+            6.点击提交注册
+            7.断言验证是否注册成功
+            8.退出浏览器
+            
+Pass	test_registration_03___admin3____admin1____admin1____18627888003____3__ (Test_Case.registration_case.registrationcase)	
+            1.首页点击免费注册按钮
+            2.注册页面输入username
+            3.输入密码
+            4.再次输入密码
+            5.输入手机号
+            6.点击提交注册
+            7.断言验证是否注册成功
+            8.退出浏览器
+            
+Pass	test_registration_04___admin4____admin1____admin1____18627888004____3__ (Test_Case.registration_case.registrationcase)	
+            1.首页点击免费注册按钮
+            2.注册页面输入username
+            3.输入密码
+            4.再次输入密码
+            5.输入手机号
+            6.点击提交注册
+            7.断言验证是否注册成功
+            8.退出浏览器
+            
+Pass	test_registration_05___admin5____admin1____admin1____18627888005____3__ (Test_Case.registration_case.registrationcase)	
+            1.首页点击免费注册按钮
+            2.注册页面输入username
+            3.输入密码
+            4.再次输入密码
+            5.输入手机号
+            6.点击提交注册
+            7.断言验证是否注册成功
+            8.退出浏览器
+            
+Pass	test_registration_06___admin1____admin1____admin1____18627888007____1__ (Test_Case.registration_case.registrationcase)	
+            1.首页点击免费注册按钮
+            2.注册页面输入username
+            3.输入密码
+            4.再次输入密码
+            5.输入手机号
+            6.点击提交注册
+            7.断言验证是否注册成功
+            8.退出浏览器
+            
+Pass	test_registration_07___admin2____admin1____admin1____18627888008____1__ (Test_Case.registration_case.registrationcase)	
+            1.首页点击免费注册按钮
+            2.注册页面输入username
+            3.输入密码
+            4.再次输入密码
+            5.输入手机号
+            6.点击提交注册
+            7.断言验证是否注册成功
+            8.退出浏览器
+            
+Pass	test_registration_08___admin3____admin1____admin1____18627888009____1__ (Test_Case.registration_case.registrationcase)	
+            1.首页点击免费注册按钮
+            2.注册页面输入username
+            3.输入密码
+            4.再次输入密码
+            5.输入手机号
+            6.点击提交注册
+            7.断言验证是否注册成功
+            8.退出浏览器
+            
+Pass	test_registration_09___admin4____admin1____admin1____18627888010____1__ (Test_Case.registration_case.registrationcase)	
+            1.首页点击免费注册按钮
+            2.注册页面输入username
+            3.输入密码
+            4.再次输入密码
+            5.输入手机号
+            6.点击提交注册
+            7.断言验证是否注册成功
+            8.退出浏览器
+            
+Pass	test_registration_10___admin5____admin1____admin1____18627888011____1__ (Test_Case.registration_case.registrationcase)	
+            1.首页点击免费注册按钮
+            2.注册页面输入username
+            3.输入密码
+            4.再次输入密码
+            5.输入手机号
+            6.点击提交注册
+            7.断言验证是否注册成功
+            8.退出浏览器
+            
+Pass	test_registration_11___admin6____admin1____admin1____18627888001____2__ (Test_Case.registration_case.registrationcase)	
+            1.首页点击免费注册按钮
+            2.注册页面输入username
+            3.输入密码
+            4.再次输入密码
+            5.输入手机号
+            6.点击提交注册
+            7.断言验证是否注册成功
+            8.退出浏览器
+            
+Pass	test_registration_12___admin7____admin1____admin1____18627888002____2__ (Test_Case.registration_case.registrationcase)	
+            1.首页点击免费注册按钮
+            2.注册页面输入username
+            3.输入密码
+            4.再次输入密码
+            5.输入手机号
+            6.点击提交注册
+            7.断言验证是否注册成功
+            8.退出浏览器
+            
+Pass	test_registration_13___admin8____admin1____admin1____18627888003____2__ (Test_Case.registration_case.registrationcase)	
+            1.首页点击免费注册按钮
+            2.注册页面输入username
+            3.输入密码
+            4.再次输入密码
+            5.输入手机号
+            6.点击提交注册
+            7.断言验证是否注册成功
+            8.退出浏览器
+            
+Pass	test_registration_14___admin9____admin1____admin1____18627888004____2__ (Test_Case.registration_case.registrationcase)	
+            1.首页点击免费注册按钮
+            2.注册页面输入username
+            3.输入密码
+            4.再次输入密码
+            5.输入手机号
+            6.点击提交注册
+            7.断言验证是否注册成功
+            8.退出浏览器
+            
+Pass	test_registration_15___admi10____admin1____admin1____18627888005____2__ (Test_Case.registration_case.registrationcase)	
+            1.首页点击免费注册按钮
+            2.注册页面输入username
+            3.输入密码
+            4.再次输入密码
+            5.输入手机号
+            6.点击提交注册
+            7.断言验证是否注册成功
+            8.退出浏览器
+            
+
+[  ERROR] [2018-05-24 15:56:00,828] [8060] [HTMLReport.py(132)] - 
+Error	test_registration_16_____ (Test_Case.registration_case.registrationcase)	
+            1.首页点击免费注册按钮
+            2.注册页面输入username
+            3.输入密码
+            4.再次输入密码
+            5.输入手机号
+            6.点击提交注册
+            7.断言验证是否注册成功
+            8.退出浏览器
+            
+
+[   INFO] [2018-05-24 15:56:00,833] [8060] [HTMLReport.py(151)] - 
+测试结束！
+运行时间: 0:02:13.784000
+共计执行用例数量：16
+执行成功用例数量：15
+执行失败用例数量：0
+跳过执行用例数量：0
+产生异常用例数量：1

@@ -1,0 +1,17 @@
+用户名|密码|再次输入密码|手机号|断言类型：1：用户名已存在 2.手机号已存在 3.注册成功
+admin1|admin1|admin1|18627888001|3
+admin2|admin1|admin1|18627888002|3
+admin3|admin1|admin1|18627888003|3
+admin4|admin1|admin1|18627888004|3
+admin5|admin1|admin1|18627888005|3
+admin1|admin1|admin1|18627888007|1
+admin2|admin1|admin1|18627888008|1
+admin3|admin1|admin1|18627888009|1
+admin4|admin1|admin1|18627888010|1
+admin5|admin1|admin1|18627888011|1
+admin6|admin1|admin1|18627888001|2
+admin7|admin1|admin1|18627888002|2
+admin8|admin1|admin1|18627888003|2
+admin9|admin1|admin1|18627888004|2
+admi10|admin1|admin1|18627888005|2
+
